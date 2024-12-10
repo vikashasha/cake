@@ -2,7 +2,16 @@ package stunda2;
 
 public class Main {
     public static void main(String[] args){
-        batter();
+        sum("12", "24");
+        sum(12, 24, 48);
+    }
+    public static void sum(String a, String b){
+        String rez = a + b;
+        System.out.println("skaitļu summa ir " + rez);
+    }
+    public static void sum(int a, int b, int c){
+        int rez = a + b + c;
+        System.out.println("skaitļu summa ir " + rez);
     }
     public static void batter() {
         System.out.println("Mix the dry ingredients.");
